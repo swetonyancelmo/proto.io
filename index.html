@@ -6,6 +6,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
@@ -14,21 +21,27 @@
   </head>
   <body>
     <header class="header">
-      <img class="logo-image" src="src/images/protoio.png" alt="Logo Proto.io" />
+      <img
+        class="logo-image"
+        src="src/images/protoio.png"
+        alt="Logo Proto.io"
+      />
 
       <nav class="navbar">
-          <ul class="nav-list" id="nav">
-            <li class="nav-item"><a href="#">About</a></li>
-            <li class="nav-item"><a href="#">Gear</a></li>
-            <li class="nav-item"><a href="#">Store</a></li>
-            <li class="nav-item"><a href="#">Team</a></li>
-            <li class="nav-item"><a href="#">Sponsors</a></li>
-            <li class="btn-default"><a href="#">Donate</a></li>
-          </ul>
+        <ul class="nav-list" id="nav">
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item"><a href="#">Gear</a></li>
+          <li class="nav-item"><a href="#">Store</a></li>
+          <li class="nav-item"><a href="#">Team</a></li>
+          <li class="nav-item"><a href="#">Sponsors</a></li>
+          <li class="btn-default"><a href="#">Donate</a></li>
+        </ul>
       </nav>
 
       <div class="menu-icon">
-        <button class="menu-toggle" id="menu-btn"><img src="src/images/Feed.png" alt="Botao menu mobile"/></button>
+        <button class="menu-toggle" id="menu-btn">
+          <i class="fa-solid fa-bars" id="button-icon"></i>
+        </button>
       </div>
     </header>
     <script src="/src/js/main.js"></script>
