@@ -1,5 +1,6 @@
 @import url(/src/styles/header.css);
 @import url(/src/styles/brtt-contain.css);
+@import url(/src/styles/brtt-numbers.css);
 
 * {
   padding: 0;
@@ -11,4 +12,13 @@ body {
   font-family: 'Red Hat Display', sans-serif;
   background-color: #212430;
   color: #FFF;
+}
+
+@media (min-width: 768px){
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

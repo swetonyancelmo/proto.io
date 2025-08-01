@@ -59,14 +59,8 @@
 }
 
 @media (min-width: 768px){
-  .main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .brtt-contain {
-    width: 1280px;
+    width: 750px;
     height: 327px;
   }
 
@@ -98,5 +92,29 @@
 
   .location img {
     width: 15px;
+  }
+}
+
+@media (min-width: 820px){
+  .brtt-contain {
+    width: 800px;
+  }
+}
+
+@media (min-width: 925px){
+  .brtt-contain {
+    width: 900px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .brtt-contain {
+    width: 1000px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .brtt-contain {
+    width: 1280px;
   }
 }
