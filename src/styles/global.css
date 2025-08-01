@@ -1,6 +1,7 @@
 @import url(/src/styles/header.css);
 @import url(/src/styles/brtt-contain.css);
 @import url(/src/styles/brtt-numbers.css);
+@import url(/src/styles/gear.css);
 
 * {
   padding: 0;

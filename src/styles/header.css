@@ -42,6 +42,7 @@
   padding-top: 1rem;
   z-index: 1;
   background-color: #212430;
+  border-radius: 0rem 0rem 1rem 0rem;
 }
 
 .nav-item {
